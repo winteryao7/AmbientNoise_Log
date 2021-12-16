@@ -16,3 +16,7 @@ After organizing data to ASDF format, I ran the CC (it's great to see that the s
 length). 
 
 To do next: to read the paper and understand better the stacking, etc. 
+
+4. Updates (Dec 16, 2021)
+Requesting Data for nearby permanent stations as well
+(http://ds.iris.edu/gmap/#channel=?HZ&starttime=2018-10-14&endtime=2021-05-17&maxlat=42.8&maxlon=-81.5&minlat=40.8&minlon=-84.5&network=*&drawingmode=box&planet=earth)
