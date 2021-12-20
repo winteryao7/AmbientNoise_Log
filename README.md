@@ -30,3 +30,8 @@ of daily (might be helpful to get of void or data gaps)
 
 S0B_to_ASDF.py would be terminated while data gap exists. How about modifying the script so it could handle this 
 instead of terminating the program? 
+
+6. Updates (Dec 20, 2021)
+Fixed a bug when plotting out cross-correlation function: it would automatically search for pairs with the same channel code 
+as indicated in the first pair, which would not be able to produce pairs with different channel codes (L156)
+
