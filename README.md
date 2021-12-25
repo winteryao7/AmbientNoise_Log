@@ -37,5 +37,12 @@ instead of terminating the program?
 6. Updates (Dec 20, 2021)
 
 Fixed a bug when plotting out cross-correlation function: it would automatically search for pairs with the same channel code 
-as indicated in the first pair, which would not be able to produce pairs with different channel codes (L156)
+as indicated in the first pair, which would not be able to produce pairs with different channel codes (L156). 
+
+7. Updates (Dec 25, 2021)
+
+Merry Christmas! I tested the application modules of NoisePy today (dispersion analysis, it seems to be working...). 
+One thing I should consider is to remove instrument response since the different sensors. I turned on the RESP for both 
+S0A and S0B (with RESP downloaded via FetchData, -rd or -sd option). Make sure the path directory is correct. 
+(resp/RESP.network.station.location.channel).  
 
