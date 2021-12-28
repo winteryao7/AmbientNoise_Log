@@ -1,0 +1,23 @@
+Apply IRIS DMC Noise Toolkit 
+
+1. Compute power spectral density (PSD) of station waveform data using customized parameters (Noise Toolkit PDF/PSD package)
+2. Compute microseism energy from PSDs at different frequency band (Noise Toolkit Microseism Energy Package)
+3. Perform frequency dependent polarization analysis of the waveform data (Noise Toolkit Polarization Analysis package)
+
+PDF/PSD package: 
+It allows users to process waveform data from their local files... 
+
+ntk_computePSD.py - request waveforms and response data for given station(s) using the ObsPy FDSN client OR
+to read user's waveform data file (SAC, MSEED, etc. format), and compute PSDs and populate a file-based PSD database
+
+Microseism Energy (ME) package: 
+
+Microseism Energy (ME) package allows users to conveniently calculate and plot microseism energy temporal
+variations in the period band of interest using the available PSD values. 
+By default, the package is configured to calculate ME over 1–5 s band, targeting smaller local storms for coastal
+stations; 5–10 s for the secondary microseisms, 11–30 s for the primary microseisms. 
+
+ntk_computePower.py - calculates power in each PSD window (by default 1 hour) over selected bin period bands
+
+Polarization Attributes (POLAR) package: 
+ntk_computePolarization.py - calculates polarization parameters for a given station and time window
