@@ -46,3 +46,11 @@ One thing I should consider is to remove instrument response since the different
 S0A and S0B (with RESP downloaded via FetchData, -rd or -sd option). Make sure the path directory is correct. 
 (resp/RESP.network.station.location.channel).  
 
+8. Updates (Jan 3, 2022)
+
+Inconsistency between the network codes. (IRIS already assigns 7D, while in the MSEED file it was XX). Hence, when I 
+added own data to the original data files, it includes both 7D and XX networks (while the stations coded as 7D.????
+contain no waveform data). 
+
+I need to sort out how to clean up empty waveforms. 
+
