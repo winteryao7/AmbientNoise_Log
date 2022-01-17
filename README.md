@@ -54,3 +54,15 @@ contain no waveform data).
 
 I need to sort out how to clean up empty waveforms. 
 
+
+9. Updates (Jan 17, 2022)
+
+Two periods: 
+
+2018/10/15 - 2019/03/15 (or something), stations: N4.M50A, N4.N51A, N4.K50A, N4.N49A, N4.L48A,& US.AAM (all BHZ)
+
+2019/03/20 - 2021/07/01, stations: N4.M50A, N4.K50A, N4.N51A, N4.N49A, LM.L48A, US.AAM, OH.BCOH, OH.BGOH, and 6O.OHIO
+
+Freqmin: 0.02, and Freqmax: 4 (Hz); Sampling Freq (10 Hz)
+
+Prefer using S0B (after dowloading data)
