@@ -1,0 +1,14 @@
+# measure the velocity change
+
+# using CCF 
+
+only LEEP station: since all stations are equipped with the same instrument, 
+we don't have to remove instrument repsonse in the first place. 
+
+After calculating daily CCF (could potential do daily stacking), it seems that 
+CCFs have moderate-to-large differences. Hence, stacking more days is necessary 
+to stablize the stacked CCF (say, 30-day stacking). 
+
+# consider output the stacked CCF as SAC files 
+
+how to measure change... using the built-in python script (read through it)
